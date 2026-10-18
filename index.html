@@ -183,13 +183,13 @@ footer p { margin: 0; max-width: 64ch; }
       <div class="side">
         <p class="lead">Der Launcher für BeamNG.drive. Fahrzeug, Wetter und Karte auswählen, und du stehst direkt auf der Straße. Auch mit Freunden.</p>
         <div class="cta">
-          <a class="btn primary dl-link" href="openNG.drive.exe" download>
+          <a class="btn primary dl-link" href="openNG.drive.zip" download>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>
             Herunterladen
           </a>
           <a class="btn ghost" href="#funktionen">Was er kann</a>
         </div>
-        <p class="meta"><span class="ver">Version 1.1.0</span> für Windows 10 und 11. Kostenlos.</p>
+        <p class="meta"><span class="ver">Version 1.3.0</span> für Windows 10 und 11. Kostenlos.</p>
       </div>
       <div class="shot"><img src="img/sp.jpg" width="1680" height="1027" alt="Singleplayer im Launcher: links Fahrzeuge nach Marke, rechts alle Presets des gewählten Fahrzeugs als Bilder"></div>
     </div>
@@ -272,17 +272,17 @@ footer p { margin: 0; max-width: 64ch; }
     <div class="wrap cols">
       <div>
         <h2>Download</h2>
-        <p class="intro">Eine einzige Datei, keine Installation. Du brauchst BeamNG.drive; für Multiplayer zusätzlich den kostenlosen <a href="https://beammp.com" rel="noopener">BeamMP-Launcher</a>.</p>
-        <a class="btn primary dl-link" href="openNG.drive.exe" download>
+        <p class="intro">Eine Zip-Datei mit dem Launcher und dem BeamMP-Installer, keine Installation nötig. Du brauchst nur BeamNG.drive; BeamMP für den Multiplayer ist mit dabei.</p>
+        <a class="btn primary dl-link" href="openNG.drive.zip" download>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>
           openNG.drive herunterladen
         </a>
-        <p class="meta"><span class="ver">Version 1.1.0</span><span class="notes"></span></p>
+        <p class="meta"><span class="ver">Version 1.3.0</span><span class="notes"></span></p>
       </div>
       <ol>
-        <li><b>In einen eigenen Ordner legen</b><span>zum Beispiel <code>D:\openNG.drive\</code>. Dort entsteht beim ersten Start <code>openNG-data</code>.</span></li>
-        <li><b>Starten</b><span>Zeigt Windows „Der Computer wurde durch Windows geschützt“, auf „Weitere Informationen“ und dann „Trotzdem ausführen“ klicken. Das passiert bei neuen Programmen ohne Signatur.</span></li>
-        <li><b>Losfahren</b><span>Das Spiel wird automatisch gefunden. Falls nicht, kannst du den Ordner unter Setup auswählen.</span></li>
+        <li><b>Entpacken</b><span>Rechtsklick auf die Zip, „Alle extrahieren…“, zum Beispiel nach <code>D:\</code>. Es entsteht der Ordner <code>D:\openNG.drive\</code>.</span></li>
+        <li><b>openNG.drive.exe starten</b><span>Zeigt Windows „Der Computer wurde durch Windows geschützt“, auf „Weitere Informationen“ und dann „Trotzdem ausführen“ klicken. Das passiert bei neuen Programmen ohne Signatur.</span></li>
+        <li><b>Losfahren</b><span>Das Spiel wird automatisch gefunden. Falls nicht, kannst du den Ordner unter Setup auswählen. BeamMP installierst du bei Bedarf unter Multiplayer → Serverliste.</span></li>
       </ol>
     </div>
   </section>
@@ -319,10 +319,9 @@ footer p { margin: 0; max-width: 64ch; }
 </footer>
 
 <script>
-// version + download link come from update.json (the same file the launcher's updater reads)
+// the version number comes from update.json (the same file the launcher's updater reads)
 fetch('update.json', { cache: 'no-store' }).then((r) => r.json()).then((u) => {
   if (u.version) document.querySelectorAll('.ver').forEach((e) => { e.textContent = 'Version ' + u.version; });
-  if (u.url) document.querySelectorAll('.dl-link').forEach((a) => { a.href = u.url; });
 }).catch(() => {});
 // light / dark
 const root = document.documentElement;

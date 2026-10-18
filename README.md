@@ -4,7 +4,7 @@ openNG.drive is an unofficial launcher for [BeamNG.drive](https://www.beamng.com
 
 **Website and download:** https://pelimenn.github.io/openng-drive/
 
-Direct download: [openNG.drive.exe](https://pelimenn.github.io/openng-drive/openNG.drive.exe) (Windows 10/11, nothing to install)
+Direct download: [openNG.drive.zip](https://pelimenn.github.io/openng-drive/openNG.drive.zip) (launcher and BeamMP installer, Windows 10/11, nothing to install)
 
 ## What it does
 
@@ -41,11 +41,11 @@ Direct download: [openNG.drive.exe](https://pelimenn.github.io/openng-drive/open
 
 ## Getting started
 
-1. Download `openNG.drive.exe` and put it in its own folder, for example `D:\openNG.drive\`.
-2. Double-click it. The exe is not signed, so Windows SmartScreen may warn you the first time. Click "More info" and then "Run anyway".
+1. Download `openNG.drive.zip` and extract it, for example to `D:\`. You get the folder `D:\openNG.drive\` with the launcher and the BeamMP installer.
+2. Double-click `openNG.drive.exe` in that folder. The exe is not signed, so Windows SmartScreen may warn you the first time. Click "More info" and then "Run anyway".
 3. The launcher finds BeamNG.drive in your Steam libraries on its own. If it can't, choose the game folder under **Setup**.
 
-The window opens through Microsoft Edge, which comes with Windows 10 and 11. For BeamMP servers you also need the free [BeamMP launcher](https://beammp.com/).
+The window opens through Microsoft Edge, which comes with Windows 10 and 11. For multiplayer, install BeamMP with the included `BeamMP_Installer.exe`, or let the launcher do it under **Multiplayer → Server list**.
 
 ## Good to know
 
