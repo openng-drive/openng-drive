@@ -56,6 +56,6 @@ The window opens through Microsoft Edge, which comes with Windows 10 and 11. For
 
 ## Credits
 
-openNG.drive is a fan project by Pelimenn. It was built with the help of Claude, an AI assistant made by Anthropic.
+openNG.drive is a fan project by [!"A PRO](https://steamcommunity.com/profiles/76561198871335992/) (Steam). It was built with the help of Claude, an AI assistant made by Anthropic.
 
 It is not affiliated with BeamNG GmbH or BeamMP. BeamNG.drive is a trademark of BeamNG GmbH.
