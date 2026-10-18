@@ -1,6 +1,6 @@
 {
-  "version": "1.3.3",
+  "version": "1.3.4",
   "url": "update/openNG.drive.exe",
-  "sha256": "115b2880778a0c591565a970a2097271c6120bc4014b57883867acb65b0d0388",
-  "notes": "• New Credits page with the developer's Steam profile and thanks to BeamNG, BeamMP and CareerMP\n• Quick links to the website, updates, GitHub, Discord and PayPal"
+  "sha256": "cd27ca06947ccbf1d2c675e8f317e828ff563214eafcc2b52c3b460910bf31ab",
+  "notes": "• Top right corner: how many players are using openNG.drive right now\n• Top right corner: whether your version is up to date, with a one-click update button"
 }
