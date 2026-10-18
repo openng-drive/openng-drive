@@ -51,6 +51,7 @@ The window opens through Microsoft Edge, which comes with Windows 10 and 11. For
 
 - Your launcher settings, profiles and cache live in the `openNG-data` folder next to the exe. Delete that folder and the launcher starts fresh.
 - The launcher reads your game installation but doesn't change it. It writes only to your BeamNG user folder: the game settings you change, the pause menu files under `ui/openng`, and backups for the performance mode.
+- While the launcher is open it adds one to the anonymous "driving right now" counter on the website, once every five minutes. No data about you is sent. Switch it off under **Settings → Launcher**.
 - Fonts: Kanit and Overpass (SIL Open Font License).
 
 ## Credits

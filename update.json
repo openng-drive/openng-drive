@@ -1,6 +1,6 @@
 {
-  "version": "1.3.1",
+  "version": "1.3.2",
   "url": "update/openNG.drive.exe",
-  "sha256": "15264c02f6a31c0dc645fcedc343918ac24527c25bcd40aa52078c8774d44af3",
-  "notes": "• English is now the default language\n• Bolder radial menu (E) in your accent colour\n• Multiplayer loading steps translated\n• New in 1.3: in-game loading screen, AI traffic and police, radial menu and controls in the pause menu, clearer presets, mod vehicle previews, BeamNG screens in the openNG look"
+  "sha256": "630a11995664ca52ad9d453f18fe61fa7d1be1e33bd826b608ffad83b2288887",
+  "notes": "• Opt-out switch for the website's \"driving right now\" counter (Settings → Launcher)\n• Translation fixes in the Singleplayer summary\n• See all changes on the website under Updates"
 }
