@@ -1,9 +1,60 @@
 # openNG.drive
 
-Inoffizieller Launcher für [BeamNG.drive](https://www.beamng.com/game/): Fahrzeug, Wetter und Karte wählen und direkt losfahren – allein oder mit Freunden über BeamMP.
+openNG.drive is an unofficial launcher for [BeamNG.drive](https://www.beamng.com/game/) on Windows. You pick a car, the weather and a map in one window, click **Start drive**, and the game loads straight into that setup. No clicking through the game's menus first. It also lets you play with friends over BeamMP and adds its own pause menu inside the game.
 
-**Website & Download:** https://pelimenn.github.io/openng-drive/
+**Website and download:** https://pelimenn.github.io/openng-drive/
 
-Direkter Download: [openNG.drive.exe](https://pelimenn.github.io/openng-drive/openNG.drive.exe) (Windows 10/11, keine Installation nötig)
+Direct download: [openNG.drive.exe](https://pelimenn.github.io/openng-drive/openNG.drive.exe) (Windows 10/11, nothing to install)
 
-openNG.drive ist ein Fanprojekt und nicht mit BeamNG GmbH oder BeamMP verbunden. Entwickelt mithilfe von Claude (Anthropic).
+## What it does
+
+**Singleplayer**
+- Browse every vehicle and preset you have installed, mods included, with preview pictures and horsepower.
+- Set the time of day and the weather: clouds, fog, wind, rain, snow and thunderstorms, with sound.
+- Choose the map and the exact spawn point on a minimap.
+
+**Multiplayer**
+- Host a server for your friends and share a short invite code, or join one with a code.
+- Browse the public BeamMP servers with map previews and player counts.
+- Play career mode alone or together with friends (CareerMP).
+
+**In the game**
+- A loading screen shows the map, your car and the weather while the game loads.
+- Press Esc for the openNG pause menu on the left side of the screen. The game stays visible and you can use the mouse.
+- From that menu you can:
+  - repair or reset your car, or put it back on the road
+  - switch cars or spawn a second one next to you
+  - open tuning
+  - change the weather and time
+  - spawn AI traffic, police and parked cars
+  - use slow motion
+  - open the map, photo mode, replays, HUD apps or the radial menu
+  - change controls, camera, audio and graphics settings
+- BeamNG's own photo mode, replay, tuning, HUD layout and radial menu screens are restyled to match.
+
+**Settings and mods**
+- Graphics, display, driving aids, camera, audio and controls are all in one place, including steering wheel settings.
+- A performance mode tunes the game's settings for more FPS and puts your own settings back when you turn it off.
+- Manage your installed mods, and search for and install new ones from the BeamNG repository.
+- The launcher is in German, English, French or Russian. You can pick the accent colour and the interface size.
+- It checks for new versions and updates itself when you agree.
+
+## Getting started
+
+1. Download `openNG.drive.exe` and put it in its own folder, for example `D:\openNG.drive\`.
+2. Double-click it. The exe is not signed, so Windows SmartScreen may warn you the first time. Click "More info" and then "Run anyway".
+3. The launcher finds BeamNG.drive in your Steam libraries on its own. If it can't, choose the game folder under **Setup**.
+
+The window opens through Microsoft Edge, which comes with Windows 10 and 11. For BeamMP servers you also need the free [BeamMP launcher](https://beammp.com/).
+
+## Good to know
+
+- Your launcher settings, profiles and cache live in the `openNG-data` folder next to the exe. Delete that folder and the launcher starts fresh.
+- The launcher reads your game installation but doesn't change it. It writes only to your BeamNG user folder: the game settings you change, the pause menu files under `ui/openng`, and backups for the performance mode.
+- Fonts: Kanit and Overpass (SIL Open Font License).
+
+## Credits
+
+openNG.drive is a fan project by Pelimenn. It was built with the help of Claude, an AI assistant made by Anthropic.
+
+It is not affiliated with BeamNG GmbH or BeamMP. BeamNG.drive is a trademark of BeamNG GmbH.
