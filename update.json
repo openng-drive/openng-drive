@@ -1,6 +1,6 @@
 {
-  "version": "1.3.0",
+  "version": "1.3.1",
   "url": "update/openNG.drive.exe",
-  "sha256": "8f3e85f8e44e7e62778ae50ef412c00eb9181b7d235f839b5d72139e43848a6f",
-  "notes": "• Neuer Ladebildschirm im Spiel\n• Umgebung: KI-Verkehr, Polizei und geparkte Autos\n• Radialmenü, Steuerung und mehr Einstellungen im Pausenmenü\n• Übersichtlichere Presets, Vorschaubilder für Mod-Fahrzeuge\n• Fotomodus, Wiederholung, Tuning, HUD-Layouts und Radialmenü im openNG-Look"
+  "sha256": "15264c02f6a31c0dc645fcedc343918ac24527c25bcd40aa52078c8774d44af3",
+  "notes": "• English is now the default language\n• Bolder radial menu (E) in your accent colour\n• Multiplayer loading steps translated\n• New in 1.3: in-game loading screen, AI traffic and police, radial menu and controls in the pause menu, clearer presets, mod vehicle previews, BeamNG screens in the openNG look"
 }

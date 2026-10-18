@@ -2,9 +2,9 @@
 
 openNG.drive is an unofficial launcher for [BeamNG.drive](https://www.beamng.com/game/) on Windows. You pick a car, the weather and a map in one window, click **Start drive**, and the game loads straight into that setup. No clicking through the game's menus first. It also lets you play with friends over BeamMP and adds its own pause menu inside the game.
 
-**Website and download:** https://pelimenn.github.io/openng-drive/
+**Website and download:** https://openng-drive.github.io/openng-drive/
 
-Direct download: [openNG.drive.zip](https://pelimenn.github.io/openng-drive/openNG.drive.zip) (launcher and BeamMP installer, Windows 10/11, nothing to install)
+Direct download: [openNG.drive.zip](https://openng-drive.github.io/openng-drive/openNG.drive.zip) (launcher and BeamMP installer, Windows 10/11, nothing to install)
 
 ## What it does
 
