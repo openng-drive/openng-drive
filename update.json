@@ -1,6 +1,6 @@
 {
-  "version": "1.4.1",
+  "version": "1.5.0",
   "url": "update/openNG.drive.exe",
-  "sha256": "2d4d3ffd127b07e93e05e6de0f1e3881b721b415455ca3deb88736e6e5299d9b",
-  "notes": "• Fixed: the openNG pause menu didn't open in BeamNG.drive 0.40, you got the game's own menu instead\n• Fixed: rain sound and the loading screen after a game update"
+  "sha256": "253ac77900dc5379ac69bb67496c5899f49f855d26fbbf3431e84e8d1b395b35",
+  "notes": "• Pause menu: \"Customise vehicle\" opens BeamNG's vehicle configuration on any tab – parts, tuning, paint, occupants, options, save config, mirrors\n• Weather & time: average, daily low and daily high temperature with a curve over the day (BeamNG 0.40)\n• Pause menu: split screen for local multiplayer\n• Pause menu settings: new Screen tab (display mode, resolution, refresh rate, monitor, brightness, HDR) and a VR tab\n• Launcher graphics: new 0.40 options and VR settings, including \"switch VR on when the game starts\"\n• Radial menu redesigned: black, calm and modern"
 }

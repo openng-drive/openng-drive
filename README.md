@@ -24,16 +24,16 @@ Direct download: [openNG.drive.zip](https://openng-drive.github.io/openng-drive/
 - From that menu you can:
   - repair or reset your car, or put it back on the road
   - switch cars or spawn a second one next to you
-  - open tuning
-  - change the weather and time
+  - customise your car: parts, tuning, paint, occupants, mirrors and saved configs
+  - change the weather and time, including the temperature over the day
   - spawn AI traffic, police and parked cars
-  - use slow motion
+  - use slow motion or start split screen with friends
   - open the map, photo mode, replays, HUD apps or the radial menu
-  - change controls, camera, audio and graphics settings
+  - change screen mode, resolution, controls, camera, audio, graphics and VR settings
 - BeamNG's own photo mode, replay, tuning, HUD layout and radial menu screens are restyled to match.
 
 **Settings and mods**
-- Graphics, display, driving aids, camera, audio and controls are all in one place, including steering wheel settings.
+- Graphics, display, VR, driving aids, camera, audio and controls are all in one place, including steering wheel settings.
 - A performance mode tunes the game's settings for more FPS and puts your own settings back when you turn it off.
 - Manage your installed mods, and search for and install new ones from the BeamNG repository.
 - The launcher is in German, English, French or Russian. You can pick the accent colour and the interface size.
