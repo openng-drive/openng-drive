@@ -1,6 +1,6 @@
 {
-  "version": "1.4.0",
+  "version": "1.4.1",
   "url": "update/openNG.drive.exe",
-  "sha256": "805f2d5ee50cd132d98f1a54bcc610835763b2184d47c91c7bd5a210b6095562",
-  "notes": "• Ready for BeamNG.drive 0.40\n• Real DLSS, FSR 3/4 and XeSS from the game, with resolution scaling and sharpness (no ReShade needed)\n• Anti-aliasing, scaling, reflections and mirrors right in the in-game pause menu\n• Fixes for 0.40: game version detected again, reflections/mirrors use the new quality levels, performance mode updated"
+  "sha256": "2d4d3ffd127b07e93e05e6de0f1e3881b721b415455ca3deb88736e6e5299d9b",
+  "notes": "• Fixed: the openNG pause menu didn't open in BeamNG.drive 0.40, you got the game's own menu instead\n• Fixed: rain sound and the loading screen after a game update"
 }
