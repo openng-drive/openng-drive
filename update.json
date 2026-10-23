@@ -1,6 +1,6 @@
 {
-  "version": "1.5.2",
+  "version": "1.6.0",
   "url": "update/openNG.drive.exe",
-  "sha256": "6136f13211dce39069343ecfc1f153305ea044dae34f31a01516b37e5905028a",
-  "notes": "• Fixed: the openNG pause menu sometimes disappeared and BeamNG's own menu showed up instead (after joining a BeamMP server, after a Lua reload, after leaving photo mode, the map or the vehicle configuration, or when the game was started from Steam)\n• The pause menu now also works when the launcher is closed"
+  "sha256": "1d43ad9b7a9737875ab57db8d78f61b4333dbe693932f3e97d0c95303a8e48ba",
+  "notes": "• Big clean-up: the whole launcher was checked and many bugs were fixed\n• Pause menu: commands are no longer lost, the Patreon/PayPal/Discord buttons work, weather buttons in the pause window work, temperature low/average/high stay consistent\n• Your BeamNG settings, mod list and launcher settings are written safely and are never wiped by a damaged file\n• Safer mod installs and deletes, safer updates, local web pages can no longer control the launcher\n• Hosting, BeamMP and loading screen fixes, many translation gaps filled"
 }
