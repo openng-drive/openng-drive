@@ -1,6 +1,6 @@
 {
-  "version": "1.6.0",
+  "version": "1.6.1",
   "url": "update/openNG.drive.exe",
-  "sha256": "1d43ad9b7a9737875ab57db8d78f61b4333dbe693932f3e97d0c95303a8e48ba",
-  "notes": "• Big clean-up: the whole launcher was checked and many bugs were fixed\n• Pause menu: commands are no longer lost, the Patreon/PayPal/Discord buttons work, weather buttons in the pause window work, temperature low/average/high stay consistent\n• Your BeamNG settings, mod list and launcher settings are written safely and are never wiped by a damaged file\n• Safer mod installs and deletes, safer updates, local web pages can no longer control the launcher\n• Hosting, BeamMP and loading screen fixes, many translation gaps filled"
+  "sha256": "fa36c7ae165c12f683eef10cf6470b1cef626192642ef6cf0609b71ac89bf176",
+  "notes": "• BeamNG.drive started from Steam (without openNG.drive) is plain BeamNG again: no openNG pause menu, no openNG look. Everything openNG only appears when you start the game with the launcher"
 }
