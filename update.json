@@ -1,6 +1,6 @@
 {
-  "version": "1.6.1",
+  "version": "1.6.2",
   "url": "update/openNG.drive.exe",
-  "sha256": "fa36c7ae165c12f683eef10cf6470b1cef626192642ef6cf0609b71ac89bf176",
-  "notes": "• BeamNG.drive started from Steam (without openNG.drive) is plain BeamNG again: no openNG pause menu, no openNG look. Everything openNG only appears when you start the game with the launcher"
+  "sha256": "d34a43790beb3b3f090fa4a740ae8e414c8ac88aa362e2f500a32e3b4ba9de3a",
+  "notes": "• openNG's pause menu and look in the game now only appear while the launcher is running. Close the launcher and BeamNG uses its own menu again\n• Fixed: the old loader from 1.5.2 kept showing the openNG menu in games started without the launcher"
 }
