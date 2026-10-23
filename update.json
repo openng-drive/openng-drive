@@ -1,6 +1,6 @@
 {
-  "version": "1.5.1",
+  "version": "1.5.2",
   "url": "update/openNG.drive.exe",
-  "sha256": "841caadf7b3fa3fdc594b507ea69a8ccb28bd1ba6d670ada8cda27d946d4b646",
-  "notes": "• Fixed: the drop-down lists in the pause menu settings (quality, anti-aliasing, resolution, VR …) didn't open in the game\n• Picking an overall quality preset now updates the detail settings right away"
+  "sha256": "6136f13211dce39069343ecfc1f153305ea044dae34f31a01516b37e5905028a",
+  "notes": "• Fixed: the openNG pause menu sometimes disappeared and BeamNG's own menu showed up instead (after joining a BeamMP server, after a Lua reload, after leaving photo mode, the map or the vehicle configuration, or when the game was started from Steam)\n• The pause menu now also works when the launcher is closed"
 }
