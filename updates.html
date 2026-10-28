@@ -24,13 +24,29 @@
   <h1>Updates</h1>
   <p>What changed in each version. The launcher asks before it installs a new version, so you normally don't need to download anything from here again.</p>
   <div class="current">
-    <a class="get" href="openNG.drive.zip" download data-dl><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>Download <span class="v" data-version>1.6.2</span></a>
+    <a class="get" href="openNG.drive.zip" download data-dl><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>Download <span class="v" data-version>1.6.3</span></a>
     <span data-downloads-row hidden><span data-downloads>–</span> downloads so far</span>
   </div>
 </div>
 <div class="wrap log">
+<article class="rel" id="v1-6-3">
+  <div class="when"><b>1.6.3</b><time>28 Oct 2026</time><br><em>Current version</em></div>
+  <div><h2>Faster online count and a second round of fixes.</h2><p>The launcher was checked again, this time following each thing you do from start to finish: a singleplayer drive into the pause menu, joining and hosting with BeamMP, mods, settings, updates and the first start.</p><ul>
+<li>The number of players online, in the launcher and on this website, now updates every 10 seconds. A closed launcher drops out after about 30 seconds</li>
+<li>If you restart the launcher while its game is still running, it picks the game up again: the pause menu comes back and you can't start a second game by accident</li>
+<li>“Close after launch” now hides the launcher in the background while you play and closes it when the game ends, so the pause menu and BeamMP keep working</li>
+<li>BeamMP: the loading screen no longer hangs for minutes after joining from the server list, and when a join fails you see BeamMP's reason instead of five retries</li>
+<li>Hosting: the player count goes down again when someone leaves, and a failed start of your own game shows the error instead of waiting</li>
+<li>Mods from the repository no longer overwrite each other while downloading</li>
+<li>VR on game start only switches on once per start, not again after joining a server</li>
+<li>Saving the steering wheel only changes the sliders you moved, and wheels set to more than 1440° keep their angle</li>
+<li>An older update can never replace a newer version, and a failed update can be closed again</li>
+<li>Picking the Bin64 folder or the wrong folder in Setup is caught</li>
+<li>More messages are translated</li>
+</ul></div>
+</article>
 <article class="rel" id="v1-6-2">
-  <div class="when"><b>1.6.2</b><time>23 Oct 2026</time><br><em>Current version</em></div>
+  <div class="when"><b>1.6.2</b><time>23 Oct 2026</time></div>
   <div><h2>openNG only while the launcher runs.</h2><ul>
 <li>The openNG pause menu and the openNG look of the game's screens now only appear while openNG.drive is running. Close the launcher and BeamNG uses its own menu again, also in a game that is already running</li>
 <li>Fixed: after 1.6.1 the menu could still appear without the launcher, because the loader written by 1.5.2 stayed on disk until the launcher was opened once. The new loader checks for the running launcher itself</li>

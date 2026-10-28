@@ -1,6 +1,6 @@
 {
-  "version": "1.6.2",
+  "version": "1.6.3",
   "url": "update/openNG.drive.exe",
-  "sha256": "d34a43790beb3b3f090fa4a740ae8e414c8ac88aa362e2f500a32e3b4ba9de3a",
-  "notes": "• openNG's pause menu and look in the game now only appear while the launcher is running. Close the launcher and BeamNG uses its own menu again\n• Fixed: the old loader from 1.5.2 kept showing the openNG menu in games started without the launcher"
+  "sha256": "d286cb6fdd50e5b7213358721e4e29f73a9d32b7c7453881faf3c895bbebb056",
+  "notes": "• The online count updates every 10 seconds: launchers report every 15 seconds and drop out about 30 seconds after closing\n• Restarting the launcher while its game runs picks the game up again, the pause menu comes straight back\n• BeamMP: the loading screen no longer hangs after joining from the server list, join errors show BeamMP's reason\n• \"Close after launch\" keeps the launcher hidden in the background while you play, so the pause menu and BeamMP keep working\n• Many smaller fixes for hosting, mods, updates, steering wheel settings and the setup"
 }
