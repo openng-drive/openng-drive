@@ -4,151 +4,157 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>openNG.drive – a launcher for BeamNG.drive</title>
-<meta name="description" content="Pick your car, the weather and a map, and BeamNG.drive loads straight onto the road. Free launcher with BeamMP multiplayer and its own in-game menu.">
+<meta name="description" content="A free launcher for BeamNG.drive: pick the car, the weather and the map in one window and the game starts right there. BeamMP multiplayer and its own pause menu included.">
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <meta property="og:title" content="openNG.drive – a launcher for BeamNG.drive">
-<meta property="og:description" content="Pick your car, the weather and a map, and BeamNG.drive loads straight onto the road. Free launcher with BeamMP multiplayer and its own in-game menu.">
+<meta property="og:description" content="Pick the car, the weather and the map in one window and BeamNG.drive starts right there. Free, with BeamMP multiplayer and its own pause menu.">
 <meta property="og:image" content="https://openng-drive.github.io/openng-drive/img/forum2/hero.jpg">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link rel="preload" href="fonts/Archivo-var.woff" as="font" type="font/woff" crossorigin>
 <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
 <header class="top"><div class="wrap">
-  <a class="brand" href="index.html" aria-label="openNG.drive home"><svg viewBox="-1 -1 80 76" aria-hidden="true"><g stroke="currentColor" stroke-width="5.5" stroke-linecap="round"><line x1="36.3" y1="24.6" x2="45.8" y2="18.2"/><line x1="58.6" y1="22.5" x2="61.8" y2="43.7"/><line x1="36.6" y1="45.4" x2="49.2" y2="51.6"/></g><g fill="#ff6b1a"><rect x="3.7" y="21.8" width="29.7" height="29.7" rx="6.2"/><rect x="48.8" y="2.7" width="16.2" height="16.2" rx="3.4"/><rect x="52.5" y="47.3" width="23" height="23" rx="4.8"/></g></svg><span class="wm">openNG<span>.drive</span></span></a>
-  <nav class="tabs" aria-label="Pages"><a href="index.html" aria-current="page">Home</a><a href="updates.html">Updates</a><a href="index.html#install">Install</a><a href="index.html#faq">FAQ</a></nav>
-  <div class="right">
-    <button class="theme" data-theme-toggle aria-label="Switch light or dark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg></button>
-    <a class="btn go small" href="openNG.drive.zip" download data-dl><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>Download</a>
-  </div>
+  <a class="name" href="index.html" aria-label="openNG.drive, home"><svg viewBox="-1 -1 80 76" aria-hidden="true"><g stroke="currentColor" stroke-width="5.5" stroke-linecap="round"><line x1="36.3" y1="24.6" x2="45.8" y2="18.2"/><line x1="58.6" y1="22.5" x2="61.8" y2="43.7"/><line x1="36.6" y1="45.4" x2="49.2" y2="51.6"/></g><g fill="#ff6b1a"><rect x="3.7" y="21.8" width="29.7" height="29.7" rx="6.2"/><rect x="48.8" y="2.7" width="16.2" height="16.2" rx="3.4"/><rect x="52.5" y="47.3" width="23" height="23" rx="4.8"/></g></svg><span>openNG<em>.drive</em></span></a>
+  <nav aria-label="Pages"><a href="updates.html">Updates</a><a class="hide-s" href="#install">Install</a><a class="hide-s" href="#questions">Questions</a></nav>
+  <a class="get small" href="openNG.drive.zip" download data-dl>Download</a>
 </div></header>
 
 <main>
-<div class="wrap intro">
-  <h1>Pick a car, pick a map, drive.</h1>
-  <p class="lead">openNG.drive is a launcher for BeamNG.drive. You set up the car, the weather and where you start in one window, and the game loads <mark>straight onto the road</mark>. It also does BeamMP for playing with friends, and gives you a better menu inside the game.</p>
-  <div class="get">
-    <a class="btn go" href="openNG.drive.zip" download data-dl><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>Download for Windows</a>
-    <div class="meta">Version <b data-version>1.6.2</b>, <span data-size>8 MB</span> zip with the BeamMP installer.<br>Free, nothing to install, Windows 10 or 11.</div>
+<div class="wrap opening">
+  <h1>openNG<em>.drive</em></h1>
+  <div class="row">
+    <div>
+      <p class="lead">A launcher for BeamNG.drive. You choose the car, the time of day, the weather and the map in one window, and the game starts right on that road. It also handles BeamMP for driving with friends, and gives you a different pause menu inside the game.</p>
+      <a class="get" href="openNG.drive.zip" download data-dl><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>Download for Windows</a>
+      <p class="now" data-online-row hidden><i data-online-dot></i><b data-online>–</b> <span data-online-word>have the launcher open right now</span></p>
+    </div>
+    <div class="plate"><h2>What you get</h2><table>
+      <tr><th>Version</th><td><b data-version>1.6.2</b></td></tr>
+      <tr><th>Download</th><td><span data-size>8 MB</span> zip, with the BeamMP installer</td></tr>
+      <tr><th>Needs</th><td>Windows 10 or 11 and BeamNG.drive 0.40 from Steam</td></tr>
+      <tr data-downloads-row hidden><th>Downloaded</th><td><span data-downloads>–</span> times</td></tr>
+      <tr><th>Price</th><td>Free</td></tr>
+    </table></div>
   </div>
-  <div class="live">
-    <span data-online-row hidden><i class="dot" data-online-dot></i><b data-online>–</b> <span data-online-word>are driving with openNG.drive right now</span></span>
-    <span data-downloads-row hidden><b data-downloads>–</b> downloads so far</span>
-  </div>
-
-  <figure class="figure annot">
-    <div class="shot"><img src="img/shots/sp.jpg" width="1280" height="782" alt="The Singleplayer page: vehicle list on the left, presets with pictures on the right"></div>
-    <div class="note" style="left:0;top:30%;width:150px">all your cars,<br>mods included<svg style="left:0px;top:0px" width="190" height="100" viewBox="0 0 190 100"><path d="M10 62 C 60 80, 110 80, 168 60 M154 54 L169 60 L156 70"/></svg></div><div class="note" style="right:0;top:12%;width:150px;text-align:right">every preset,<br>with horsepower<svg style="left:0px;top:0px" width="160" height="120" viewBox="0 0 160 120"><path d="M140 62 C 110 90, 60 100, -20 92 M-6 84 L-21 92 L-7 101"/></svg></div><div class="note" style="right:0;bottom:16%;width:150px;text-align:right">then Next,<br>Next, drive<svg style="left:0px;top:0px" width="160" height="140" viewBox="0 0 160 140"><path d="M140 62 C 120 92, 60 110, -18 116 M-5 108 L-19 116 L-5 124"/></svg></div>
-    <figcaption>Step 1 of 3 on the Singleplayer page. Time, weather and map come next.</figcaption>
+  <figure class="hero-shot">
+    <img src="img/shots/sp.jpg" width="1280" height="782" alt="The Singleplayer page of the launcher: vehicles grouped by brand on the left, the presets of the chosen car with pictures and horsepower on the right">
+    <figcaption>The first of three steps: the car. Time and weather come next, then the map and where on it you start.</figcaption>
   </figure>
 </div>
 
-<section><div class="wrap two">
+<section class="wrap chapter side">
   <div>
-    <h2>Set it all up before the game starts</h2>
-    <p>BeamNG.drive has a lot to offer, but getting into a drive means clicking through a few menus every time. Here it's three steps on one page, and the game opens right where you wanted to be.</p>
-    <ul class="ticks">
-      <li>Time of day, or let it run</li>
-      <li>Clouds, fog, wind, rain and snow, with real rain sound</li>
-      <li>Pick your start point on a minimap of the level</li>
-      <li>"Last drive" starts your previous setup again</li>
+    <h2>Everything set before the game loads</h2>
+    <p>Normally you load a map, wait, open the vehicle menu, pick a car, then change the time and weather. Here you do that first, in one place, and BeamNG.drive opens with all of it already done.</p>
+    <ul>
+      <li>Every car and preset you have, mods included</li>
+      <li>Time of day, clouds, fog, wind, rain and snow, plus the temperature over the day</li>
+      <li>The start point, picked on a map of the level</li>
+      <li>“Last drive” starts the same setup again with one click</li>
     </ul>
   </div>
-  <figure style="margin:0"><div class="shot"><img src="img/shots/env.jpg" width="1280" height="782" alt="Time and weather settings" loading="lazy"></div><figcaption>Thunderstorm at dusk, set in about five seconds.</figcaption></figure>
-</div></section>
+  <figure class="shot">
+    <img src="img/shots/env.jpg" width="1280" height="782" alt="Time and weather step: a time slider, weather presets and detailed sliders" loading="lazy">
+    <figcaption>Late afternoon with a thunderstorm.</figcaption>
+  </figure>
+</section>
 
-<section><div class="wrap">
-  <div class="narrow">
-    <h2>A better menu when you press Esc</h2>
-    <p>Instead of BeamNG's pause screen you get a panel on the left. The game stays visible behind it and your mouse just works. Everything is in one place:</p>
-    <ul class="ticks">
-      <li>Repair, reset or put the car back on the road</li>
-      <li>Swap cars, or spawn a second one next to you</li>
-      <li>Spawn AI traffic, police and parked cars, as many as your PC can take</li>
-      <li>Weather, time, slow motion, photo mode, replays, map and the radial menu</li>
+<section class="ingame">
+  <div class="wrap">
+    <h2>A different menu when you press Esc</h2>
+    <p>In a game you started with the launcher, Esc opens a panel on the left. The game stays visible behind it and the mouse works as usual. From there you can:</p>
+    <ul>
+      <li>repair the car, reset it or put it back on the road</li>
+      <li>switch cars or spawn a second one next to you</li>
+      <li>open BeamNG's vehicle setup straight on parts, tuning, paint or occupants</li>
+      <li>change weather, time and temperature, spawn traffic and police, use slow motion</li>
+      <li>start split screen, switch VR on, or change the screen mode and graphics</li>
     </ul>
+    <p>Start the game from Steam, or close the launcher, and you get BeamNG's own menu as usual.</p>
+    <figure class="shot">
+      <img src="img/shots/pause-traffic.jpg" width="1280" height="720" alt="The pause menu on the left with sliders for AI traffic, police and parked cars, the paused game behind it" loading="lazy">
+      <figcaption>Traffic, police and parked cars, set with a preset or with the sliders.</figcaption>
+    </figure>
+    <div class="pics">
+      <figure class="shot"><img src="img/shots/pause-vehicle.jpg" width="1280" height="720" alt="Changing the car from the pause menu" loading="lazy"><figcaption>Changing the car without leaving the map.</figcaption></figure>
+      <figure class="shot"><img src="img/shots/loading.jpg" width="1280" height="720" alt="The loading screen with the chosen map, car and weather" loading="lazy"><figcaption>While the map loads, you see what you picked.</figcaption></figure>
+    </div>
   </div>
-  <figure class="figure"><div class="shot"><img src="img/shots/pause-traffic.jpg" width="1280" height="720" alt="In-game menu with the Environment page: sliders for AI traffic, police and parked cars" loading="lazy"></div><figcaption>The Environment page. Pick a preset like "Rush hour" or set the numbers yourself.</figcaption></figure>
-  <div class="pair">
-    <figure><div class="shot"><img src="img/shots/pause-vehicle.jpg" width="1280" height="720" alt="Changing the car in the game" loading="lazy"></div><figcaption>Changing cars without leaving the map.</figcaption></figure>
-    <figure><div class="shot"><img src="img/shots/loading.jpg" width="1280" height="720" alt="The loading screen" loading="lazy"></div><figcaption>The loading screen shows what you picked.</figcaption></figure>
-  </div>
-</div></section>
+</section>
 
-<section><div class="wrap two flip">
+<section class="wrap chapter side">
   <div>
-    <h2>Playing with friends</h2>
-    <p>Host a BeamMP server from the launcher and send your friends a short code. They paste it, and they spawn on your map with the car they chose. Your own mods get shared with them automatically.</p>
-    <ul class="ticks">
-      <li>Or browse the public BeamMP servers, with map pictures and player counts</li>
-      <li>Career mode together through CareerMP</li>
-      <li>The BeamMP installer is in the zip, so there's nothing extra to find</li>
-    </ul>
+    <h2>Driving with friends</h2>
+    <p>Host a BeamMP server from the launcher and send your friends the short code it gives you. They paste it in, and they spawn on your map in the car they chose. Mods you use are shared with them.</p>
+    <p>You can also browse the public BeamMP servers with map pictures and player counts, or play career mode together through CareerMP. The BeamMP installer comes in the zip.</p>
   </div>
-  <figure style="margin:0"><div class="shot"><img src="img/shots/mp.jpg" width="1280" height="782" alt="Multiplayer page" loading="lazy"></div><figcaption>Host on the left, join with a code on the right.</figcaption></figure>
-</div></section>
+  <figure class="shot">
+    <img src="img/shots/mp.jpg" width="1280" height="782" alt="The Multiplayer page: hosting on the left, joining with a code on the right" loading="lazy">
+    <figcaption>Host on the left, join with a code on the right.</figcaption>
+  </figure>
+</section>
 
-<section><div class="wrap two">
+<section class="wrap chapter side">
   <div>
-    <h2>Settings without the detour</h2>
-    <p>Graphics, controls, steering wheel, camera and audio, all changed from the launcher. If your PC struggles, switch on <b>performance mode</b>: it lowers the heavy stuff and puts your own settings back when you switch it off again.</p>
-    <p>The launcher speaks English, German, French and Russian, and updates itself when there's a new version.</p>
+    <h2>Settings in the launcher</h2>
+    <p>Graphics, DLSS and FSR, VR, controls, steering wheel, camera and sound can all be changed before you start. If the game runs slowly on your PC, performance mode turns down the expensive settings and puts yours back when you switch it off.</p>
+    <p>The launcher is in English, German, French and Russian, and it updates itself when a new version is out.</p>
   </div>
-  <figure style="margin:0"><div class="shot"><img src="img/shots/settings.jpg" width="1280" height="782" alt="Settings page" loading="lazy"></div></figure>
-</div></section>
+  <figure class="shot">
+    <img src="img/shots/settings.jpg" width="1280" height="782" alt="The graphics settings in the launcher" loading="lazy">
+  </figure>
+</section>
 
-<section id="install"><div class="wrap two">
-  <div>
-    <h2>Getting it running</h2>
-    <p>You need Windows 10 or 11 and BeamNG.drive from Steam. That's it.</p>
-    <p><a class="btn go" href="openNG.drive.zip" download data-dl><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>Download openNG.drive.zip</a></p>
-  </div>
+<section class="wrap chapter" id="install">
+  <h2>Installing</h2>
+  <p>You need Windows 10 or 11 and BeamNG.drive from Steam.</p>
   <ol class="steps">
-    <li><div><b>Unzip it</b><span>Right-click the zip, "Extract All…", and put it somewhere like <code>D:\</code>. You get a folder called <code>openNG.drive</code>.</span></div></li>
-    <li><div><b>Start openNG.drive.exe</b><span>The first time, Windows may say "Windows protected your PC". Click <i>More info</i> and then <i>Run anyway</i>. That shows up for every program that isn't signed with a paid certificate.</span></div></li>
-    <li><div><b>Drive</b><span>The launcher finds BeamNG.drive on its own. If it can't, choose the game folder under Setup. For multiplayer, open Multiplayer, Server list, and click Install.</span></div></li>
+    <li><div><b>Unzip the download</b>Right-click <code>openNG.drive.zip</code>, choose “Extract All…” and put it somewhere like <code>D:\</code>. You get a folder called <code>openNG.drive</code>.</div></li>
+    <li><div><b>Start openNG.drive.exe</b>The first time, Windows may show “Windows protected your PC”. Click “More info”, then “Run anyway”. Windows shows that for programs that aren't signed with a paid certificate.</div></li>
+    <li><div><b>Pick a car and drive</b>The launcher finds BeamNG.drive by itself. If it doesn't, choose the game folder under Setup. For multiplayer, go to Multiplayer and click Install next to BeamMP.</div></li>
   </ol>
-</div></section>
+</section>
 
-<section id="faq"><div class="wrap two">
-  <div><h2>Questions</h2><p>Something else? Ask on <a href="https://discord.gg/BErECcExz6">Discord</a>.</p></div>
-  <dl class="faq" style="margin:0">
-    <dt style="margin-top:0">Is this an official BeamNG program?</dt>
-    <dd>No. It's a fan project and not connected to BeamNG GmbH or the BeamMP team. It starts the normal game you bought on Steam.</dd>
-    <dt>Does it change my game files?</dt>
-    <dd>Your game installation stays as it is. The launcher writes only to your BeamNG user folder: settings you change in the launcher, the files for the in-game menu, and a backup of your graphics settings while performance mode is on.</dd>
-    <dt>How do I remove it?</dt>
-    <dd>Delete the folder. Everything the launcher saves for itself is in <code>openNG-data</code> right next to the exe.</dd>
-    <dt>What is "driving right now" on this page?</dt>
-    <dd>Every open launcher adds one to a public counter every five minutes. Nothing about you is sent, not even a name. You can switch it off in the launcher under Settings, Launcher.</dd>
-    <dt>Was this made with AI?</dt>
-    <dd>Partly, yes. openNG.drive was built with the help of Claude, an AI assistant by Anthropic. The ideas, testing and decisions come from playing the game a lot.</dd>
+<section class="wrap chapter" id="questions">
+  <h2>Questions</h2>
+  <dl class="qa">
+    <dt>Is this made by BeamNG?</dt>
+    <dd>No. It's a fan project, not connected to BeamNG GmbH or the BeamMP team. It starts the game you bought on Steam.</dd>
+    <dt>Does it change my game?</dt>
+    <dd>The game folder stays as it is. The launcher writes to your BeamNG user folder only: settings you change in the launcher, the files of the pause menu, and a backup of your graphics settings while performance mode is on.</dd>
+    <dt>How do I uninstall it?</dt>
+    <dd>Delete the folder. Everything the launcher keeps for itself is in <code>openNG-data</code> next to the exe.</dd>
+    <dt>What is the “launcher open right now” number?</dt>
+    <dd>Each open launcher adds one to a public counter every 15 seconds. No name or other data about you is sent. You can turn it off in the launcher under Settings, Launcher.</dd>
+    <dt>Was it made with AI?</dt>
+    <dd>Partly. openNG.drive was built with the help of Claude, an AI assistant by Anthropic. What it should do, the testing and the decisions come from someone who plays BeamNG a lot.</dd>
   </dl>
-</div></section>
+  <p style="margin-top:22px">Something else, or found a bug? Ask on <a href="https://discord.gg/BErECcExz6">Discord</a>.</p>
+</section>
 
-<section><div class="wrap two">
-  <div><h2>Keeping it going</h2><p>openNG.drive is free and stays free. If it saves you some clicks, a small donation helps, and so do bug reports.</p></div>
-  <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;padding-top:6px">
-    <a class="btn plain" href="https://www.paypal.com/paypalme/MANLionsCityProject">Donate with PayPal</a>
-    <a class="btn plain" href="https://discord.gg/BErECcExz6">Join the Discord</a>
-    <a class="btn plain" href="updates.html">See what's new</a>
+<section class="wrap chapter">
+  <h2>New in <span data-version>1.6.2</span></h2>
+  <div class="news" data-notes><p>Bug fixes for the pause menu and the launcher.</p></div>
+  <div class="links">
+    <a class="plain" href="updates.html">All updates</a>
+    <a class="plain" href="https://www.paypal.com/paypalme/MANLionsCityProject">Support it on PayPal</a>
+    <a class="plain" href="https://discord.gg/BErECcExz6">Discord</a>
   </div>
-</div></section>
+</section>
 </main>
 
 <footer><div class="wrap">
   <div>
-    <p>openNG.drive is a hobby project by <a href="https://steamcommunity.com/profiles/76561198871335992/">!&quot;A PRO</a>. A lot of it was built together with <span class="claude">Claude, an AI assistant made by Anthropic</span>: the code, the in-game menu and this website.</p>
-    <p>Not affiliated with BeamNG GmbH or BeamMP. BeamNG.drive is a trademark of BeamNG GmbH. Fonts: Kanit and Overpass (SIL Open Font License), Caveat (Google Fonts).</p>
+    <p>openNG.drive is a hobby project by <a href="https://steamcommunity.com/profiles/76561198871335992/">!&quot;A PRO</a>, made with the help of Claude, an AI assistant by Anthropic.</p>
+    <p>Not affiliated with BeamNG GmbH or BeamMP. BeamNG.drive is a trademark of BeamNG GmbH. Fonts: Archivo and Kanit (SIL Open Font License), served from this site.</p>
   </div>
-  <div class="links">
+  <nav aria-label="Links">
     <a href="updates.html">Updates</a>
     <a href="https://github.com/openng-drive/openng-drive">GitHub</a>
     <a href="https://discord.gg/BErECcExz6">Discord</a>
     <a href="https://www.paypal.com/paypalme/MANLionsCityProject">PayPal</a>
     <a href="https://steamcommunity.com/profiles/76561198871335992/">Steam</a>
-  </div>
+  </nav>
 </div></footer>
 <script src="js/site.js"></script>
 </body>
